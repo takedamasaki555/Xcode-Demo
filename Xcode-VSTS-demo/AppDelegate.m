@@ -9,6 +9,11 @@
 #import "AppDelegate.h"
 #import "DetailViewController.h"
 
+// For Mobile Center
+@import MobileCenter;
+@import MobileCenterAnalytics;
+@import MobileCenterCrashes;
+
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
 @end
@@ -17,6 +22,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [MSMobileCenter start:@"c402c5bf-df03-4cdb-828e-ba449138c39c" withServices:@[
+                                                                                 [MSAnalytics class],
+                                                                                 [MSCrashes class]
+                                                                                 ]];
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
