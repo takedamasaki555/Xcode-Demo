@@ -73,6 +73,7 @@
 				6193674560A4479D7DC76ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		A6EC2DD91DFEF52300185B97 /* Products */ = {
 			isa = PBXGroup;
@@ -390,6 +391,7 @@
 				A6EC2DF41DFEF52300185B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
