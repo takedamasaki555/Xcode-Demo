@@ -5,6 +5,7 @@
 //  Created by WebMatrixMan on 2016/12/13.
 //  Copyright © 2016年 WebMatrixMan. All rights reserved.
 //
+// Masaki Takeda
 
 #import <UIKit/UIKit.h>
 
