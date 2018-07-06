@@ -1,19 +1,25 @@
 PODS:
-  - MobileCenter (0.3.4):
-    - MobileCenter/MobileCenterAnalytics (= 0.3.4)
-    - MobileCenter/MobileCenterCrashes (= 0.3.4)
-  - MobileCenter/MobileCenter (0.3.4)
-  - MobileCenter/MobileCenterAnalytics (0.3.4):
-    - MobileCenter/MobileCenter
-  - MobileCenter/MobileCenterCrashes (0.3.4):
-    - MobileCenter/MobileCenter
+  - AppCenter (1.5.0):
+    - AppCenter/Analytics (= 1.5.0)
+    - AppCenter/Crashes (= 1.5.0)
+  - AppCenter/Analytics (1.5.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.5.0)
+  - AppCenter/Crashes (1.5.0):
+    - AppCenter/Core
 
 DEPENDENCIES:
-  - MobileCenter
+  - AppCenter
+  - AppCenter/Analytics
+  - AppCenter/Crashes
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AppCenter
 
 SPEC CHECKSUMS:
-  MobileCenter: 4f9b236f547d109a5703ba8df09ea8955f9213a6
+  AppCenter: 42c293f0de27e173aacd600a55a49da5317cd40e
 
-PODFILE CHECKSUM: 15058f8281838e9b246e52dd9409b3670c5e7745
+PODFILE CHECKSUM: 04fea1a7c00e05988f07ba671f4f9f3379470fc0
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.0

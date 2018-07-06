@@ -6,6 +6,9 @@ target 'Xcode-VSTS-demo' do
   # use_frameworks!
 
   # Pods for Xcode-VSTS-demo
-  pod 'MobileCenter'
+  pod 'AppCenter'
+  pod 'AppCenter/Analytics'
+  pod 'AppCenter/Crashes'
+
 end
 
